@@ -6,7 +6,6 @@
 // print out the type of the variable “x”
 // assign 42 to the VARIABLE “x” using the “=” OPERATOR
 // print out the value of the variable “x”
-
 package main
 
 import (
@@ -16,6 +15,7 @@ import (
 type your_username int
 
 var x your_username
+var y int
 
 func main() {
 
@@ -23,5 +23,8 @@ func main() {
 	fmt.Printf("%T\n", x)
 	x = 42
 	fmt.Println(x)
+	y = int(x)
+	fmt.Println(y)
+	fmt.Printf("%T\n", y)
 
 }

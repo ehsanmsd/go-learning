@@ -5,7 +5,6 @@
 // in func main
 // print out the values for each identifier
 // The compiler assigned values to the variables. What are these values called?
-
 package main
 
 import (
